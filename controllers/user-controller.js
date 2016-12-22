@@ -143,6 +143,7 @@ module.exports = {
     		                            }
     		                            if (user) {
     		                            	logger.logInfo('find the user');
+
     		                            	//logger.logInfo(user);
 //    		                            	user.channels.push({channel: channel, last_access: channel.create_at});
 //    		                            	pubnub.addChannels(user.channel_group, channel.name, function(err, status) {
